@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="css/form.css" rel="stylesheet" type="text/css"/>
+    </head>
+<body>
+
+<!-- <h2>Employee</h2>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Create</button> -->
+
+<div id="id01">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form action="EmployeeInsert">
+    <div class="container">
+      <hr>
+      <label for="Name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      
+
+      <label for="designation"><b>Designation</b></label>
+      <input type="text" placeholder="Enter employee designation" name="designation" required>
+
+      <label for="dept_id"><b>Dept_ID</b></label>
+      <input type="text" placeholder="Enter Dept_id" name="dept_id" required>
+        <br>
+      <label for="hire_date"><b>Hire_Date</b></label>
+      <input type="text"  name="hire_date" required>
+      
+       <label for="emp_status"><b>Employee Status</b></label>
+      <input type="text"  name="emp_status" required>
+      
+      
+        <button type="submit" class="signupbtn">Create</button>
+
+    </div>
+  </form>
+</div>
+
+<!-- <script>
+// Get the modal
+var modal = document.getElementById('id01');
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script> -->
+
+</body>
+</html>
